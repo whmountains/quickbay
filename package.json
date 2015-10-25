@@ -4,7 +4,8 @@
   "description": "streamlined ebay lister for quickly listing hundreds of items",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/whmountains/quickbay/issues"
   },
-  "homepage": "https://github.com/whmountains/quickbay#readme"
+  "homepage": "https://github.com/whmountains/quickbay#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.1"
+  }
 }
