@@ -2,7 +2,7 @@
   "name": "quickbay",
   "version": "1.0.0",
   "description": "streamlined ebay lister for quickly listing hundreds of items",
-  "main": "index.js",
+  "main": "root.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/electron ."
