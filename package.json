@@ -18,6 +18,15 @@
   },
   "homepage": "https://github.com/whmountains/quickbay#readme",
   "devDependencies": {
-    "electron-prebuilt": "^0.34.1"
+    "babel": "^5.8.29",
+    "electron-prebuilt": "^0.34.1",
+    "eslint": "^1.7.3",
+    "eslint-plugin-react": "^3.6.3"
+  },
+  "dependencies": {
+    "chokidar": "^1.2.0",
+    "lodash": "^3.10.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
   }
 }

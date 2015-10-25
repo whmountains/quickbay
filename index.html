@@ -1,12 +1,102 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Ebay Quick Lister</title>
+
+    <link href="./bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <link href="./styles.css" rel="stylesheet"/>
+
   </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <script>document.write(process.version)</script>
-    and Electron <script>document.write(process.versions['electron'])</script>.
+  <body class="_54578270">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Item Info</h3>
+      </div>
+      <div class="panel-body">
+        <form>
+          <div class="form-group">
+            <label for="itemTitleInput">Item Name</label>
+            <input type="text" class="form-control" id="itemTitleInput" placeholder="Item Name">
+          </div>
+          <div class="form-group">
+            <label for="itemPriceInput">Item Price</label>
+            <input type="text" class="form-control" id="itemPriceInput" placeholder="e.g. 12.99">
+          </div>
+          <div class="form-group">
+            <label for="itemDescriptionInput">Item Description</label>
+            <textarea class="form-control" id="itemDescriptionInput" rows="5" placeholder="description"></textarea>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Item Pictures</h3>
+      </div>
+      <div class="panel-body">
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <img class="media-object" src="http://placehold.it/150x150">
+            </a>
+          </div>
+          <div class="media-body">
+            <label><input type="checkbox"/> Use Image for item</label><br/>
+            <label><input type="checkbox"/> Default Image</label>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <img class="media-object" src="http://placehold.it/150x150">
+            </a>
+          </div>
+          <div class="media-body">
+            <label><input type="checkbox"/> Use Image for item</label><br/>
+            <label><input type="checkbox"/> Default Image</label>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <img class="media-object" src="http://placehold.it/150x150">
+            </a>
+          </div>
+          <div class="media-body">
+            <label><input type="checkbox"/> Use Image for item</label><br/>
+            <label><input type="checkbox"/> Default Image</label>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <img class="media-object" src="http://placehold.it/150x150">
+            </a>
+          </div>
+          <div class="media-body">
+            <label><input type="checkbox"/> Use Image for item</label><br/>
+            <label><input type="checkbox"/> Default Image</label>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <img class="media-object" src="http://placehold.it/150x150">
+            </a>
+          </div>
+          <div class="media-body">
+            <label><input type="checkbox"/> Use Image for item</label><br/>
+            <label><input type="checkbox"/> Default Image</label>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div id="images-list"></div>
+    <script src="./images-list.js"></script>
+    <button type="button" class="btn btn-primary">List Item</button>
+    <button type="button" class="btn btn-warning">Reset Fields</button>
   </body>
 </html>
